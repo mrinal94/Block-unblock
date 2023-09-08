@@ -1,0 +1,8 @@
+/home/ubuntu/testing1/bin/Publish/testing1
+/home/ubuntu/testing1/bin/Publish/appsettings.Development.json
+/home/ubuntu/testing1/bin/Publish/appsettings.json
+/home/ubuntu/testing1/bin/Publish/testing1.dll
+/home/ubuntu/testing1/bin/Publish/testing1.deps.json
+/home/ubuntu/testing1/bin/Publish/testing1.runtimeconfig.json
+/home/ubuntu/testing1/bin/Publish/testing1.pdb
+/home/ubuntu/testing1/bin/Publish/Newtonsoft.Json.dll

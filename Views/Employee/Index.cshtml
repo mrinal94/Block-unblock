@@ -1,0 +1,26 @@
+ @model FormClass
+    @{  
+    ViewBag.Title = "Index";  
+    }  
+    <form asp-action="SubmitEmp" asp-controller="Employee" method="post">
+        <table class="table table-responsive table-bordered" >  
+    <tr>  
+    <td>First Name:-</td>  
+    <td>  
+        <input asp-for="FirstName" class="form-control">      
+    </td>  
+    </tr>  
+    <tr>  
+    <td>Last Name:-</td>  
+    <td>  
+        <input asp-for="LastName" class="form-control">      
+    </td>  
+    </tr>  
+    
+    <tr>  
+    <td colspan="2" align="right"> 
+        <button type="submit" class="btn btn-success">Submit</button>
+    </td>  
+    </tr>  
+    </table>  
+    </form>

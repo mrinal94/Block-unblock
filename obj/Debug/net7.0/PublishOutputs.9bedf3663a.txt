@@ -1,0 +1,7 @@
+/var/www/html/publish/testing1
+/var/www/html/publish/appsettings.Development.json
+/var/www/html/publish/appsettings.json
+/var/www/html/publish/testing1.dll
+/var/www/html/publish/testing1.deps.json
+/var/www/html/publish/testing1.runtimeconfig.json
+/var/www/html/publish/testing1.pdb

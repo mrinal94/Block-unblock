@@ -1,0 +1,15 @@
+@model FormClass
+
+@{ 
+ViewBag.Title = "Employee Details"; 
+} 
+@if(Model != null)
+{ <div> 
+Employee Deatils </div> 
+<div> 
+First Name: @Model.FirstName</div> 
+<div> 
+Last Name: @Model.LastName </div> 
+
+} 
+else { <div> Employee Deatils not found </div> } 

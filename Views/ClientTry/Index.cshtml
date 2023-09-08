@@ -1,0 +1,19 @@
+@model ClientVM
+
+<h2>Client Info</h2>
+<form asp-action="Block_UnBlock" method="post">
+  <input asp-for="who" placeholder="Enter Client ID" />
+  <input asp-for="_as" placeholder="Enter as" />
+  <select asp-for="_Type">
+    <option value="1">Block</option>
+    <option value="0">UnBlock</option>
+  </select>
+  <button type="submit">Submit</button>
+</form>
+
+<h3>Response JSON:</h3>
+<pre>
+  @Model.ResponseJson
+</pre>
+
+
